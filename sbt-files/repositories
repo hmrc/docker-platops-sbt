@@ -1,0 +1,8 @@
+[repositories]
+  local
+  hmrc-releases: https://artefacts.tax.service.gov.uk/artifactory/hmrc-releases/
+  hmrc-sbt-plugin-releases: https://artefacts.tax.service.gov.uk/artifactory/hmrc-sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  third-party-ivy-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  third-party-maven-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-maven-releases/
+  third-party-sbt-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-sbt-releases/
+  hmrc-bintray-playframework: https://artefacts.tax.service.gov.uk/artifactory/bintray-playframework-sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
