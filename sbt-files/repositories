@@ -6,6 +6,6 @@
   third-party-maven-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-maven-releases/
   third-party-sbt-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-sbt-releases/
   hmrc-bintray-playframework: https://artefacts.tax.service.gov.uk/artifactory/bintray-playframework-sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
-  ivy-proxy-releases: http://artefacts.tax.service.gov.uk/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
-  maven-proxy-releases: http://artefacts.tax.service.gov.uk/maven-releases/
+  ivy-proxy-releases: https://artefacts.tax.service.gov.uk/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  maven-proxy-releases: https://artefacts.tax.service.gov.uk/maven-releases/
   jcentre-cache: https://artefacts.tax.service.gov.uk/artifactory/jcenter-cache/
