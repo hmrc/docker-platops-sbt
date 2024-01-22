@@ -18,7 +18,8 @@ RUN curl --fail -L -o "sbt-launch.jar" "https://artefacts.tax.service.gov.uk/art
 RUN curl -L -o "sbt-$SBT_VERSION.deb" "https://scala.jfrog.io/artifactory/debian/sbt-$SBT_VERSION.deb"
 RUN dpkg -i "sbt-$SBT_VERSION.deb"
 RUN rm "sbt-$SBT_VERSION.deb"
-RUN sbt -Dsbt.override.build.repos=true 'inspect writeVersion'
+RUN sbt -Dsbt.repository.config=/root/.sbt/repositories 'inspect writeVersion'
+#RUN sbt -Dsbt.override.build.repos=true 'inspect writeVersion'
 
 
 
