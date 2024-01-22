@@ -13,6 +13,8 @@ RUN apt-get update -qq \
 
 COPY sbt-files/ $HOME/.sbt/
 
+
+RUN curl --fail -L -o "sbt-launch.jar" "https://artefacts.tax.service.gov.uk/artifactory/jcenter-cache/org/scala-sbt/sbt-launch/1.9.7/sbt-launch-1.9.7.jar" 
 RUN curl -L -o "sbt-$SBT_VERSION.deb" "https://scala.jfrog.io/artifactory/debian/sbt-$SBT_VERSION.deb"
 RUN dpkg -i "sbt-$SBT_VERSION.deb"
 RUN rm "sbt-$SBT_VERSION.deb"
