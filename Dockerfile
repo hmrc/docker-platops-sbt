@@ -13,10 +13,10 @@ RUN apt-get update -qq \
 
 COPY sbt-files/ $HOME/.sbt/
 
-RUN curl -L -o "sbt-$SBT_VERSION.deb" "https://scala.jfrog.io/artifactory/debian/sbt-$SBT_VERSION.deb" && \
-    dpkg -i "sbt-$SBT_VERSION.deb" && \
-    rm "sbt-$SBT_VERSION.deb" && \
-    sbt 'inspect writeVersion'
+RUN curl -L -o "sbt-$SBT_VERSION.deb" "https://scala.jfrog.io/artifactory/debian/sbt-$SBT_VERSION.deb"
+RUN dpkg -i "sbt-$SBT_VERSION.deb"
+RUN rm "sbt-$SBT_VERSION.deb"
+RUN sbt 'inspect writeVersion'
 
 
 
