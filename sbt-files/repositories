@@ -1,5 +1,7 @@
 [repositories]
   local
+  mdtp-proxied-ivy-repositories: https://artefacts.tax.service.gov.uk/content/groups/mdtp-proxied-ivy-repositories/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  mdtp-proxied-maven-repositories: https://artefacts.tax.service.gov.uk/content/groups/mdtp-proxied-maven-repositories/
   hmrc-releases: https://artefacts.tax.service.gov.uk/artifactory/hmrc-releases/
   hmrc-sbt-plugin-releases: https://artefacts.tax.service.gov.uk/artifactory/hmrc-sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
   third-party-ivy-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
@@ -7,5 +9,3 @@
   third-party-sbt-releases: https://artefacts.tax.service.gov.uk/artifactory/third-party-sbt-releases/
   hmrc-bintray-playframework: https://artefacts.tax.service.gov.uk/artifactory/bintray-playframework-sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
   ivy-proxy-releases: https://artefacts.tax.service.gov.uk/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
-  maven-proxy-releases: https://artefacts.tax.service.gov.uk/maven-releases/
-  jcentre-cache: https://artefacts.tax.service.gov.uk/artifactory/jcenter-cache/
