@@ -9,7 +9,8 @@ WORKDIR $HOME
 
 RUN apt-get update -qq \
     && apt-get install -qqy \
-    curl
+    curl \
+    git
 
 
 COPY sbt-files/ $HOME/.sbt/
