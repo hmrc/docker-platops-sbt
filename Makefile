@@ -1,7 +1,7 @@
 SHELL := /usr/bin/env bash
 ARTIFACTORY_HOST := "artefacts.tax.service.gov.uk"
 tag = $$(cat .sbt-version)
-artefact = platops-docker-sbt
+artefact = docker-platops-sbt
 
 
 build:
