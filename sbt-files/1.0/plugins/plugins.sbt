@@ -1,1 +1,1 @@
-addSbtPlugin("uk.gov.hmrc" % "sbt-build-jobs" % "0.16.0")
+addSbtPlugin("uk.gov.hmrc" % "sbt-build-jobs" % "0.18.0")
