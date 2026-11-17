@@ -21,7 +21,7 @@ RUN git config --global --add safe.directory /root/build
 RUN curl --fail -L -o "sbt-$SBT_VERSION.deb" "https://scala.jfrog.io/artifactory/debian/sbt-$SBT_VERSION.deb"
 RUN dpkg -i "sbt-$SBT_VERSION.deb"
 RUN rm "sbt-$SBT_VERSION.deb"
-RUN sbt 'inspect writeVersion'
+RUN sbt --allow-empty 'inspect writeVersion'
 
 
 
