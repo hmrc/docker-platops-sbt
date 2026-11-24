@@ -1,4 +1,4 @@
-from dockerhub.tax.service.gov.uk/eclipse-temurin:21
+from dockerhub.tax.service.gov.uk/eclipse-temurin:21.0.13.1_2-jdk
 
 ARG SBT_VERSION 
 ARG HOME=/root
